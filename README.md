@@ -51,3 +51,8 @@ API KEY
 
 Update the API key in the .env file amd place it in the root directory of your project. 
 The following is an example of how to refer to the key "process.env.REACT_APP_API_KEY".
+
+Running the app:
+The scripts are all set.
+Type from the command line 
+npm run dev
