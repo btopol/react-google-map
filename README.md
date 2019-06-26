@@ -5,7 +5,7 @@ Installation:
 
 This project utilizes node,react and express.
 If you're running from scratch please install node from https://nodejs.org/en/
-and then react by the following:
+and then react with the following:
 npm install create-react-app g
 create-react-app client 
 
@@ -38,17 +38,16 @@ http://localhost:5000/api/revcode/40.714224,-73.961452
 
 http://localhost:5000/api/geocode/1600+Amphitheatre+Parkway,+Mountain+View,+CA
 
-Examples:
+Examples for the client side:
 
 1. Adding a city: type any address such as 424 N highland ave los angeles CA
 
-2. Reverse geocode: please input your latitude,your longitude
+2. Reverse geocode: please input the info as latitude,longitude
 
-3. Distance: please input latitude1,longitude1,latitude2,longitude2
+3. Distance: please input the data as  latitude1,longitude1,latitude2,longitude2
 
 
 API KEY
 
-Update the API key in the .env file in the root directory of your project 
-ere is an example of how one would refer to the 
-key process.env.REACT_APP_API_KEY
+Update the API key in the .env file amd place it in the root directory of your project. 
+The following is an example of how to refer to the key "process.env.REACT_APP_API_KEY".
